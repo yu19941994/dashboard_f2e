@@ -1,0 +1,55 @@
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 48px;
+}
+
+.buttonGroup > button {
+  display: flex;
+  margin-left: 12px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.switch {
+  background-color: #BFC0C3;
+}
+
+.addUser {
+  background-color: #8ac926;
+}
+
+.editUser {
+  background-color: #ffca3a;
+}
+
+.deleteUser {
+  background-color: #ff595e;
+}
+
+.buttonGroup > button > span {
+  display: inline-block;;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+
+  .buttonGroup > button > span > span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buttonGroup > button > span {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 1000px;
+  width: 80%;
+  margin: 120px auto 80px;
+}
+
+.switch {
+  display: flex;
+  margin-left: auto;
+  /* margin-bottom: 12px; */
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #BFC0C3;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.switch > span {
+  display: inline-block;;
+  margin-left: 8px;
+}

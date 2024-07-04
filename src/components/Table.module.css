@@ -1,0 +1,58 @@
+.tableArea {
+  width: 100%;
+  /* height: 300px; */
+  margin-bottom: 48px;
+  padding: 50px 35px;
+  background-color: #fff;
+  border-radius: 32px;
+  box-shadow: -8px 2px 5px 0px rgba(219,219,219,1);
+}
+
+.table {
+  /* display: flex; */
+  /* width: 100%; */
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.table > thead,
+.table > tbody {
+  /* display: flex; */
+  /* width: 100%; */
+}
+
+.table tr:nth-child(even) {
+  background-color: #caf0f8;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  /* display: inline-block; */
+  padding: 8px;
+  border-bottom: 1px solid #BFC0C3;
+  text-align: center;
+}
+
+.table button {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.editUser {
+  background-color: #ffca3a;
+}
+
+.deleteUser {
+  background-color: #ff595e;
+}

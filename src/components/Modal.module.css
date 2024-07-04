@@ -1,0 +1,118 @@
+.modalContainer {
+  opacity: 1;
+  /* pointer-events: none; */
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.4s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 32px;
+  padding: 40px 60px;
+  width: 500px;
+}
+
+.modalBtn {
+  border-radius: 6px;
+  padding: 4px 12px;
+  background-color: silver;
+}
+
+.profilePicture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px dashed #000;
+  border-radius: 32px;
+}
+
+.profilePicture > svg {
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+.fileUploader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.infoGroup {
+  margin-bottom: 30px;
+}
+
+.formInput {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8px;
+}
+
+.formInput > label,
+.formInput > input,
+.formInput > select {
+  text-align: center;
+  font-size: 16px;
+}
+
+.formInput > label {
+  color: #bfc0c3;
+}
+
+.formInput > input,
+.formInput > select {
+  width: 170px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal button {
+  display: flex;
+  margin-left: 12px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cancel {
+  background-color: #BFC0C3;
+}
+
+.submit {
+  background-color: #8ac926;
+}
+
+.buttonGroup > button > span {
+  display: inline-block;;
+  margin-left: 8px;
+}
+
+.warning {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #ff595e;
+  text-align: center;
+}
